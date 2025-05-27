@@ -6,7 +6,6 @@ async function getUrlsFromIp() {
       method: "get",
       url: "/url",
     });
-    console.log(result);
     return result;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
