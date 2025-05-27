@@ -110,7 +110,7 @@ export default function Home() {
             <URLChart data={response.urls} />
           ) : (
             <h2 className="text-xl font-semibold text-zinc-900">
-              Você não possui nenhuma URL cadastrada para que possar montar o
+              Você não possui nenhuma URL cadastrada para que possa montar o
               gráfico.
             </h2>
           )}
